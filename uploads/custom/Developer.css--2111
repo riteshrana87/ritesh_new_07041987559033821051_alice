@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2 Nov, 2016, 9:34:03 AM
+    Author     : HP-PC-2
+*/
+
+.fixedheightdiv{height: 160px; max-height:160px; min-height: 160px }
+.mail_modal_link:hover{cursor:pointer}
+#main .message-list li:hover{cursor:pointer}
+.count_attachments{ left: 0; overflow: hidden; right: 200px; text-overflow: ellipsis;  white-space: nowrap; }
+.count_attachments span.teaser {float: right; margin-right: 200px; }
+.email_modal_title{float:left}
+.mail_details_caret:hover{cursor:pointer}
+.mail_details{display:none}
+.message-list{list-style-type:none}
+.li1,.li3,.li4{width:20%;float:left}
+.li2{width:40%; float:left}
+.message-list li {padding:15px 25px 35px; border-top:1px solid #ebeff2}
+.message-list.list_headers > li { font-size: 16px; font-weight: 900; }
+.from_mail_span{vertical-align: sub;margin-left: 10px;}	
+.message_lists li{background-color:#f4f5fB}
+table#datatable tr:hover{cursor:pointer}
+.attachemnt_display{float:right}

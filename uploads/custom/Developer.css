@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : 2 Nov, 2016, 9:34:03 AM
+    Author     : HP-PC-2
+    */
+
+
+.mail_modal_link:hover{cursor:pointer}
+#main .message-list li:hover{cursor:pointer}
+.count_attachments{ left: 0; overflow: hidden; right: 200px; text-overflow: ellipsis;  white-space: nowrap; }
+.count_attachments span.teaser {float: right; margin-right: 200px; }
+.email_modal_title{float:left}
+.mail_details_caret:hover{cursor:pointer}
+.mail_details{display:none}
+.message-list{list-style-type:none}
+.li1,.li3,.li4{width:20%;float:left}
+.li2{width:40%; float:left}
+.message-list li {padding:15px 25px 35px; border-top:1px solid #ebeff2}
+.message-list.list_headers > li { font-size: 16px; font-weight: 900; }
+.from_mail_span{vertical-align: sub;margin-left: 10px;}
+.message_lists li{background-color:#f4f5fB}
+table#datatable tr:hover{cursor:pointer}
+.attachemnt_display{float:right}
+
+
+.fixedheightdivproject{height: 220px; max-height:220px; min-height: 220px }
+.dashedBorder{border: 1px #000 dashed}
+
+
+.stripe_form_container, .paypal_form_container, .ideal_form_container,  .issue_date, .due_date, .custom_date, .reminder_set{
+    display:none;
+}
+
+#accordion{
+    overflow-x:hidden;
+}
+
+
+
+#sub_price {width:50%;}
+.discount-text {width: 50%;float: right;}
+.cursor{cursor:pointer;}
+.invoice_dashboard{margin:20px;}
+
+
+.dataTables_wrapper{overflow-x: hidden ! important;}
+.alice_main_class{float:right;right: 0;top: 418px;left:1782px;position: absolute;}
+.box{
+    float:left;
+    overflow: hidden;
+    background: white;
+}
+.box-inner{
+    width: 0 auto;
+    height:200px;
+    padding: 10px;
+
+}
+.name-alice{float: left;font-size: 21px;text-align: center;width: 100%;}
+
+.text-center{
+    margin-top:10px;
+}
+.bottom_line{
+    border-bottom:1px solid #000;;
+}
+
+.col-md-7.pull-left.text-left{
+    padding-left:0px;
+}
+
+.filtr-container{
+    height:300px;
+}
+.header-title.m-t-0.m-b-30.amount {
+    color: orange;
+    font-size: 40px;
+}
+#overdue_price{ color: red }
+#outstanding_price{ color:orange }
+#draft_price{ color:#71b6f9 }
+
+.overdue_invoice{
+    background-color:red;
+}
+
+.invoice_paid{
+    background-color:#10c469 ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.invoice_overdue{
+    background-color:red ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.invoice_draft{
+    background-color:#71b6f9 ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.outstanding_invoice{
+    background-color:orange ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.invoice_paid h3, .overdue_invoice h3, .invoice_overdue h3, .invoice_draft h3, .outstanding_invoice h3{
+    color:#fff;
+}
+

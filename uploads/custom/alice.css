@@ -1,0 +1,360 @@
+﻿body {
+
+}
+.p10{padding: 10px;}
+.mT15{margin-top: 15px;}
+.mT30{margin-top: 30px;}
+
+.filtr-search {
+    border-radius: 50rem;
+    margin: 11px auto 30px;
+    padding: 0px 0px 1px 42px;
+    width: 99%;
+    border: 1px solid #d8d8d8;
+}
+.filtr-search-icon{ position: absolute; margin: 23px; color: #d0d0d0;}
+
+#sidebar-menu ul ul a { padding: 10px 10px 10px 49px;}
+#sidebar-menu ul li a i { margin-right: 8px;}
+.list-inline>li { padding-left: 0px; }
+
+/*--------------------------Header--------------------------*/
+.main_logo {
+    width: 146px;
+    padding: 15px 0;
+}
+.serach_box {
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+/*--------------------------GridView--------------------------*/
+
+.header-title {
+    font-size: 18px;
+    margin: 0px 0px 46px 0px;
+    letter-spacing: 0.0px;
+    color: #999999;
+}
+
+
+/*--------------------------Left Menu--------------------------*/
+
+.left_click_btn {
+    width: 46%;
+    margin: 3px;
+}
+
+.profile_icon {
+    font-size:20px;
+}
+.profile_name {
+    color: #49a8ed !important;
+    font-size: 19px;
+    font-weight: bold;
+
+}
+
+/*--------------------------Dashboard--------------------------*/
+
+.dashboard_screen{}
+.dashboard_screen .head_title{ font-size: 18px; font-weight: 400; color: #bbbbbb; margin: 25px 0 7px;}
+
+.dashboard_screen .section_height1{height: 230px; padding: 10px 25px 0;}
+.dashboard_screen .section_height2{height: 455px;}
+
+.dashboard_screen .section_outstanding{}
+.dashboard_screen .section_outstanding .head{ font-weight: 600; font-size: 20px; color: #666; letter-spacing: -0.3px;}
+.dashboard_screen .section_outstanding .amt_no{ font-size: 28px; font-weight: 300; margin-bottom: 15px; border-bottom: 1px solid #efefef;}
+
+.dashboard_screen .section_outstanding .head1{ font-size: 16px; color: #5a5a5a;}
+.dashboard_screen .section_outstanding .amt_no1{ font-size: 16px; font-weight: 300;}
+
+
+.dashboard_screen .box_report{
+    padding: 20px;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.06), 0 1px 0px 0 rgba(0, 0, 0, 0.02);
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    background-clip: padding-box;
+    margin: 0 15px 15px 0px;
+    background-color: #ffffff;
+}
+.dashboard_screen .box_report img{ width: 70px; margin: 0 auto 25px; display: table;}
+.dashboard_screen .box_report .title{text-align: center; font-size: 15px; color: #777; font-weight: 500; border-top: 1px solid #e4e4e4; padding-top: 10px;}
+
+
+/*--------------------------Client--------------------------*/
+.head_page{
+    border-bottom: 1px solid #DBDDDE;
+}
+.head_page .page-header{
+    border:0px;
+
+}
+
+.head_page .page-header-btn-icon{
+    margin-right: 8px;
+    font-size: 15px;
+}
+.head_page .page-header-btn{
+    font-size: 17px;
+    padding: 8px 27px;
+    float: right;
+    margin-top: 15px;
+}
+
+.page_inside .action-bar{margin: 10px 0;}
+.page_inside .title_head{ letter-spacing: -1px !important; margin: 14px 0 0 7px; color: #555; font-size: 26px;}
+.page_inside .title_head1{ letter-spacing: -1px !important; margin: 15px 0 0 15px; color: #555; font-size: 26px;}
+.page_inside .action-bar li a{color: #ababab !important; margin: 0px -6px 0 15px;}
+.page_inside .action-bar li .active{color: #6ba84f !important;}
+.page_inside .action-bar li a:hover, .page_inside .action-bar li a:active{ color: #509032 !important;}
+
+.card-box .table-rep-plugin .table-responsive th{  font-size:17px;}
+.card-box .table-rep-plugin .table-responsive tr td{ padding: 17px 10px;}
+.card-box .table-rep-plugin .table-responsive .actions{padding: 11px;}
+.card-box .table-rep-plugin .table-responsive .actions .on-default{font-size: 21px; margin-right: 10px;}
+
+.alert-success {
+    background-color: #ffffff;
+    color: #10c469;
+    border: 2px dashed #a2a2a2;
+}
+
+.other_box{padding: 15px; border: 1px solid #dedede;}
+
+
+
+.fixedheightdiv_client {
+    height: 180px;
+    max-height: 180px;
+    min-height: 180px;
+}
+.fixedheightdiv_client .header-title{
+    font-size: 17px;
+    margin: 0px 0px 20px 0px;
+    letter-spacing: 0.0px;
+}
+.fixedheightdiv_client .full_name_plat{ border-bottom: 1px solid #DBDDDE;}
+.fixedheightdiv_client .full_name_plat .actions{ display: inline-block; float: right; font-size: 20px;}
+.fixedheightdiv_client .full_name_plat .actions a{margin-left: 8px;}
+.fixedheightdiv_client .full_name{ display: inline-block;}
+
+.fixedheightdiv_client .full_name{font-size: 20px; color:#333333; margin: 0px 0px 10px 0px; padding: 0px; width: 78%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.fixedheightdiv_client .address_detail{ color: #999999; margin: 7px 0 5px; letter-spacing: 0.2px; font-size: 13px; }
+.fixedheightdiv_client .zip_detail{ color: #999999; font-size: 13px;}
+.fixedheightdiv_client .city_detail{ color: #999999; font-size: 13px;}
+.fixedheightdiv_client .cont_detail{ color: #555555; font-size: 13px; margin-top: 5px;}
+
+/*--------------------------Add Client--------------------------*/
+.add_client_header{border-bottom: 1px solid #DBDDDE; font-size: 35px; text-align: center; padding-bottom: 5px; margin-bottom: 30px;}
+.form_field{}
+.form_field hr{margin:40px 0;}
+
+
+.right_side_form{ margin-top: 86px;}
+
+.right_side_form .panel-group .panel-heading {padding: 12px 23px 12px 16px;}
+.right_side_form .panel-heading { display: flex; }
+.right_side_form .panel-heading .icon img{width: 50px; display: inline-block; }
+.right_side_form .panel-heading .panel-title{display: inline-block; width: 100%; margin: 14px 0px 0px 20px;}
+
+/*--------------------------Invoice--------------------------*/
+.insdie_tag{
+    padding: 0px;
+    margin: 22px auto -20px;
+    display: table;
+}
+.insdie_tag .nav{display: table-cell;}
+.insdie_tag .nav-pills>li {
+    float: left;
+    border: 1px solid #999999;
+}
+.insdie_tag .nav-pills>li+li {
+    margin-left: -1px;
+}
+.insdie_tag .nav-pills>li>a {
+    border-radius: 0px;
+}
+.insdie_tag .nav-pills>li>a,
+.insdie_tag .nav-pills>li>a:focus,
+.insdie_tag .nav-pills>li>a:hover {
+    color: #333333;
+    background-color: #efefef;
+}
+.insdie_tag .nav-pills>li.active>a, .insdie_tag .nav-pills>li.active>a:focus, .insdie_tag .nav-pills>li.active>a:hover {color: #ffffff;background-color: #337ab7;}
+
+.inside_body{padding: 60px 0;}
+
+#overdue_price{ color: #ff0743 }
+#outstanding_price{ color: #ff7e00}
+#draft_price{ color:#71b6f9 }
+.inside_body .amount{font-size: 30px; margin: 0; padding: 0; font-weight: bold;}
+.inside_body .amount_detail{font-size: 21px; margin: 11px 0 0; padding: 0; color: #999999; letter-spacing: -1px;}
+
+.fixedheightdiv_invoice{
+    height: 219px;
+    max-height: 219px;
+    min-height: 219px;
+    padding: 10px;
+}
+.fixedheightdiv_invoice .header-title {
+    margin: 36px 0px 20px 0px;
+}
+
+.fixedheightdiv_invoice .full_name_plat{}
+.fixedheightdiv_invoice .full_name_plat .actions{ display: inline-block; float: right; font-size: 20px; margin: 6px 8px 0px 0px;}
+.fixedheightdiv_invoice .full_name_plat .actions a{margin-left: 8px;}
+.fixedheightdiv_invoice .full_name{ display: inline-block;}
+
+.fixedheightdiv_invoice .invoice_no{ color: #999999; margin-bottom: 5px; letter-spacing: 0px; font-size: 13px;}
+.fixedheightdiv_invoice .invoice_date{ color: #999999; margin-bottom: 5px; letter-spacing: 0px; font-size: 13px;}
+.fixedheightdiv_invoice .client_name{  color: #555555; border-width: 1px 0 1px 0; border-style: solid; border-color: #efefef; font-weight: bold; font-size: 18px; padding: 16px 0px; }
+.fixedheightdiv_invoice .total_payment{ color: #555555; font-size: 24px; padding: 7px 0px 4px; }
+.fixedheightdiv_invoice .btn{font-size: 22px; padding: 7px 0; margin: 0; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; color: #ffffff; text-align: center;}
+
+
+/*-------------*/
+.right_side_form .top_btn{width: 100%;}
+/*-------------*/
+.panel_invoice{}
+.panel_invoice .box_head{ font-size: 14px; font-weight: 500; letter-spacing: 0.5px;}
+
+.panel_invoice .top_section{}
+.panel_invoice .top_section .logo{ display: inline-block; width: 70%;}
+.panel_invoice .top_section .address{ display: inline-block; font-size: 13px;}
+.panel_invoice .top_section .address .comp_name{font-weight: 600;}
+/*-------------*/
+.panel_invoice .section_one{ min-height: 140px;}
+.panel_invoice .section_one .section_one_left{display: inline-block; width: 30%;}
+.panel_invoice .section_one .section_one_right{display: inline-block; float: right;}
+
+.panel_invoice .section_one .section_one_left .select_box{}
+.panel_invoice .section_one .section_one_left .address{font-size: 14px;}
+.panel_invoice .section_one .section_one_left .address .comp_name{font-weight: 600; margin-top: 10px;}
+
+.panel_invoice .section_one .section_one_right .section_one_plat{padding: 0px 0 10px;}
+.panel_invoice .section_one .section_one_right .section_one_plat .plat1{display: inline-block; margin: 4px 10px 0px;}
+.panel_invoice .section_one .section_one_right .section_one_plat .plat1 .plat1_invoice{font-weight: 600;}
+
+.panel_invoice .section_one .section_one_right .section_one_plat .plat2{display: inline-block; float: right;}
+
+.panel_invoice .section_one .section_one_right .section_one_plat .plat2 .invoice-number { border: 0; background: #ffffff; height: 27px; padding: 0px 11px; font-size: 17px; width: 150px; color: #666;}
+.panel_invoice .section_one .section_one_right .section_one_plat .plat2 .invoice-datepicket {border: 0; border-bottom: 1px solid #efefef; background: #ffffff; cursor: pointer; height: 27px; padding: 0px 12px; width: 150px;}
+
+.panel_invoice .select2-chosen {height: 0; line-height: 0; padding: 14px 10px; font-size: 13px;}
+.panel_invoice .form-control.select2-container { border: 0;}
+.panel_invoice .form-control .select2-choice { border: 1px solid #d8d8d8 !important; border-radius: 4px;}
+/*-------------*/
+.panel_invoice .section_two{}
+/*-------------*/
+.panel_invoice .section_three{}
+.panel_invoice .section_three .add_items_heading{ padding: 0 4px;}
+.panel_invoice .section_three .add_items_heading label{ font-size: 13px; font-weight: 600;}
+.panel_invoice .section_three .add_items_field{ padding: 0px 3px; margin-bottom: 5px;}
+.panel_invoice .section_three .add_items_field input[type="text"]{ font-size: 13px; height: 30px; line-height: 0; margin: 0; padding: 4px;}
+.panel_invoice .section_three .add_items_field .select_field{ padding: 3px 4px; height: 30px; font-size: 13px;}
+.panel_invoice .section_three .add_items_field .empty-message{color: #e20000; font-size: 11px;}
+/*-------------*/
+.panel_invoice .section_six{}
+
+
+
+
+/*-----------------------------------------------------------*/
+/*--------------------------Expense--------------------------*/
+
+.fixedheightdiv_expense{
+    height: 219px;
+    max-height: 219px;
+    min-height: 219px;
+    padding: 10px;
+}
+.fixedheightdiv_expense .header-title {
+    margin: 36px 0px 20px 0px;
+}
+
+
+.fixedheightdiv_expense .full_name_plat{ padding-bottom: 10px;}
+.fixedheightdiv_expense .full_name_plat .actions{ display: inline-block; float: right; font-size: 20px; margin: 0px 8px 0px 0px;}
+.fixedheightdiv_expense .full_name_plat .actions a{margin-left: 8px;}
+.fixedheightdiv_expense .full_name{ display: inline-block;}
+
+.fixedheightdiv_expense .category_name{ color: #999999; margin-bottom: 5px; letter-spacing: 0px; font-size: 18px; text-transform: capitalize;}
+.fixedheightdiv_expense .category_date{ color: #999999; margin-bottom: 5px; letter-spacing: 0px; font-size: 14px;}
+.fixedheightdiv_expense .vendor_name{  color: #555555; font-weight: bold; font-size: 18px; padding: 10px 0px 3px;  text-transform: capitalize; }
+.fixedheightdiv_expense .description{ color: #999999; margin-bottom: 5px; letter-spacing: 0px; font-size: 14px; min-height: 44px;}
+.fixedheightdiv_expense .total_payment{ color: #555555; font-size: 24px; padding: 7px 0px;  text-align: right; border-top: 1px solid #efefef;}
+
+/*--------------------------Product--------------------------*/
+.fixedheightdiv_product{
+    max-height: 235px;
+    min-height: 235px;
+    padding: 10px;
+    letter-spacing: 0px;
+}
+
+.fixedheightdiv_product .header-title {
+    margin: 40px 0px 20px 0px;
+}
+.fixedheightdiv_product .dot{width: 10px; height: 10px; border-radius: 50%; float: left; margin: 4px 5px 0 0px;}
+.fixedheightdiv_product .purple_dot{background-color:#c30950;}
+.fixedheightdiv_product .blue_dot{background-color:#188ae2;}
+
+.fixedheightdiv_product .perishable{float: left; color: #999999; font-size: 12px;}
+.fixedheightdiv_product .non-perishable{float: left; color: #999999; font-size: 12px;}
+.fixedheightdiv_product .product_sku{float: right; color: #999999; font-size: 12px;}
+
+.fixedheightdiv_product .product_name{color: #555555; margin: 5px 0; padding: 8px 0; font-size: 23px; text-align: center; border-bottom: 1px solid #efefef;}
+
+.fixedheightdiv_product .opening_stock{float: left; color: #888; margin-bottom: 2px; font-size: 13px;}
+.fixedheightdiv_product .opening_stock_no{float: right; color: #888; margin-bottom: 2px; font-size: 13px;}
+
+.fixedheightdiv_product .purchases{float: left; color: #888; margin-bottom: 2px; font-size: 13px;}
+.fixedheightdiv_product .purchases_no{float: right; color: #888; margin-bottom: 2px; font-size: 13px;}
+
+.fixedheightdiv_product .sales{float: left; color: #888; margin-bottom: 2px; font-size: 13px;}
+.fixedheightdiv_product .sales_no{float: right; color: #888; margin-bottom: 2px; font-size: 13px;}
+
+.fixedheightdiv_product .closing_stock{float: left; color: #888; padding: 10px 0; font-size: 16px; border-top: 1px solid #efefef; width: 60%;}
+.fixedheightdiv_product .closing_stock_no{float: right; color: #888; padding: 10px 0; font-size: 16px; border-top: 1px solid #efefef; width: 40%; text-align: right;}
+
+.fixedheightdiv_product .out_of_stock{ background-color: #ff0743;}
+.fixedheightdiv_product .in_stock{ background-color: #10c469;}
+.fixedheightdiv_product .btn_frame{font-size: 22px; padding: 7px 0; margin: 0; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; color: #ffffff; text-align: center;}
+
+
+/*--------------------------Setting CompanyInformation--------------------------*/
+.add_company_plat .header-title{font-size: 18px; margin: 0px 0px 20px 0px; letter-spacing: 0.0px; color: #777777;}
+
+.add_company_plat textarea{ border: 1px solid #E3E3E3; border-radius: 4px; padding: 10px 12px; transition: all 300ms linear;}
+.add_company_plat textarea:focus{ border: 1px solid #AAAAAA;}
+.add_company_plat .add_company_img label{ font-size: 13px; font-weight: 600;}
+.add_company_plat .add_company_img input[type="file"]{ margin: 10px 0 30px;}
+.add_company_plat .add_company_img img{ max-width: 400px;}
+
+
+
+/*--------------------------Projects--------------------------*/
+.fixedheightdiv_project{
+    height: 198px;
+    max-height: 198px;
+    min-height: 198px;
+    padding: 10px;
+}
+.fixedheightdiv_project .header-title {
+    margin: 36px 0px 20px 0px;
+}
+
+.fixedheightdiv_project .full_name_plat{ padding-bottom: 10px;}
+.fixedheightdiv_project .full_name_plat .actions{ display: inline-block; float: right; font-size: 20px; margin: 0px 8px 0px 0px;}
+.fixedheightdiv_project .full_name_plat .actions a{margin-left: 8px;}
+.fixedheightdiv_project .full_name{ display: inline-block;}
+
+.fixedheightdiv_project .project_name{ padding: 3px 0;}
+.fixedheightdiv_project .project_name a{ color: #999999; margin: 7px 0 0; letter-spacing: 0px; font-size: 13px; text-transform: capitalize;}
+.fixedheightdiv_project .client_name{  color: #555555; border-width: 1px 0 1px 0; border-style: solid; border-color: #efefef; font-weight: bold; font-size: 18px; padding: 16px 0px; }
+.fixedheightdiv_project .du_date{ color: #555555; font-size: 14px; padding: 10px 0px 4px;}
+.fixedheightdiv_project .btn{font-size: 22px; padding: 7px 0; margin: 0; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; color: #ffffff; text-align: center;}
